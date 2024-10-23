@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tienda</title>
+    <style>
+        .cuadro-autores {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-top: 20px;
+            background-color: #b2e0e6;
+            width: 500px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a la Tienda de Jhonny Yujra</h1>
+    <a href="{{ url_for('agregar_producto') }}">Agregar Producto</a>
+    <a href="{{ url_for('lista_productos') }}">Gestion de Productos</a>
+
+    <div class="cuadro-autores">
+        <h2>SEGUNDO PARCIAL TEM-742</h2>
+        <p><strong>Nombre:</strong> Jhonny Rene Yujra Pinto</p>
+        <p><strong>Email:</strong> jhonnyyujrapinto1@gmail.com</p>
+        <p><strong>CEDULA DE IDENTIDAD:</strong>5482044 LP</p>
+        </div>
+</body>
+</html>
